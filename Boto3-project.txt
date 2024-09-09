@@ -4,7 +4,21 @@
 
 	- Create IAM User
 
-	- List all User
+		- import boto3
+
+		- Create iam client
+
+		- Print response
+
+	- List all User : 
+
+		- import boto3
+
+		- Create iam client
+		
+		- get paginator
+		
+		- for loop for viewing few fields like : UserName and ARN of users.
 
 	- 
 

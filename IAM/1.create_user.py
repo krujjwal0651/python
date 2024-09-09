@@ -1,5 +1,3 @@
-from http.client import responses
-
 import boto3
 
 def create_iam_user(username):
