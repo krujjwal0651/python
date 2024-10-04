@@ -32,11 +32,5 @@ pipeline{
                 sh "echo 'Hello I am stage 5'"
             }
         }
-
-        stage("Stage 6"){
-            steps{
-                sh "echo 'Hello I am stage 6'"
-            }
-        }
     }
 }
